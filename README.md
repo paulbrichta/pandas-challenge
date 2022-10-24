@@ -1,6 +1,7 @@
 # pandas-challenge
 
 A script that analyzes schools and calculates:
+
 District Summary
 - The total number of unique schools
 - The total number of students
