@@ -1,6 +1,6 @@
 # pandas-challenge
 
-A script that analyzes schools and calculates:
+A script that analyzes student and school data and calculates:
 
 District Summary
 - The total number of unique schools
@@ -11,7 +11,7 @@ District Summary
 - The percentage of students who passed math
 - The percentage of students who passed reading
 - The percentage of students that passed both math and reading
-- Create a new DataFrame for the above calculations called district_summary
+- Creates a new DataFrame for the above calculations called district_summary
 
 
 School Summary
@@ -27,47 +27,47 @@ School Summary
 
 
 Highest-Performing Schools by Percentage of Overall Passing
-- Sort the schools by % Overall Passing in descending order
-- Save the results to a DataFrame called top_schools
-- Display the first 5 rows
+- Sorts the schools by % Overall Passing in descending order
+- Saves the results to a DataFrame called top_schools
+- Displays the first 5 rows
 
 
 Lowest-Performing Schools by Percentage of Overall Passing
-- Sort the schools by % Overall Passing in ascending order
-- Save the results to a DataFrame called bottom_schools
-- Display the first 5 rows
+- Sorts the schools by % Overall Passing in ascending order
+- Saves the results to a DataFrame called bottom_schools
+- Displays the first 5 rows
 
 
 Math Scores by Grade
-- Separate the data by grade
-- Group by "school_name" and take the mean of each
-- Select only the math_score
-- Combine each of the scores above into single DataFrame called math_scores_by_grade
+- Separates the data by grade
+- Groups by "school_name" and take the mean of each
+- Selects only the math_score
+- Combines each of the scores above into single DataFrame called math_scores_by_grade
 
 
 Reading Scores by Grade
-- Separate the data by grade
-- Group by "school_name" and take the mean of each
-- Select only the reading_score
-- Combine each of the scores above into single DataFrame called reading_scores_by_grade
+- Separates the data by grade
+- Groups by "school_name" and take the mean of each
+- Selects only the reading_score
+- Combines each of the scores above into single DataFrame called reading_scores_by_grade
 
 
 Scores by School Spending
-- Use pd.cut to bin the data by the spending ranges
-- Calculate the averages
-- Create the spending_summary DataFrame using the binned and averaged spending data
+- Uses pd.cut to bin the data by the spending ranges
+- Calculates the averages
+- Creates the spending_summary DataFrame using the binned and averaged spending data
 
 
 Scores by School Size
-- Use pd.cut to bin the data by the school sizes
-- Calculate the averages
-- Create the size_summary DataFrame using the binned and averaged size data
+- Uses pd.cut to bin the data by the school sizes
+- Calculates the averages
+- Creates the size_summary DataFrame using the binned and averaged size data
 
 
 Scores by School Type
-- Group the per_school_summary DataFrame by "School Type" and average the results
-- Select the new column data
-- Create a new DataFrame called type_summary that uses the new column data
+- Groups the per_school_summary DataFrame by "School Type" and averages the results
+- Selects the new column data
+- Creates a new DataFrame called type_summary that uses the new column data
 
 
 Written Report
